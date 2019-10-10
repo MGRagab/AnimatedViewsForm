@@ -24,7 +24,7 @@ allprojects {
 
 ```java
 	dependencies {
-	        implementation 'com.github.MGRagab:AnimatedViewsForm:Tag'
+	        implementation 'com.github.MGRagab:AnimatedViewsForm:VERSION'
 	}
 ```
 
