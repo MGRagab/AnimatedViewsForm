@@ -1,6 +1,9 @@
 ViewsFrom is an android librarie that allows you to easily find and animate child views from one or multiple ViewGroups using their tag, type, visibility and much more.
 This librairie is Android 14+ compatible.
 
+This library is update for Jaouan's ViewForms Library 
+https://github.com/Jaouan/ViewsFrom
+
 ![demo](art/demo.gif)
 
 Installation
@@ -8,17 +11,24 @@ Installation
 Gradle
 
 ```java
-repositories {
-  	maven { url "https://jitpack.io" }
-}
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 
 ```java
-implementation 'com.github.jaouan:viewsfrom:1.0.0'
+	dependencies {
+	        implementation 'com.github.MGRagab:AnimatedViewsForm:Tag'
+	}
 ```
 
 Usage
 --------
+
+
 Use **Views** class as entry point, and let the librarie guides you.
 
 First example : Animate all visible views from rootView.
