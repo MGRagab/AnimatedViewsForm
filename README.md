@@ -1,3 +1,6 @@
+[![](https://jitpack.io/v/MGRagab/AnimatedViewsForm.svg)](https://jitpack.io/#MGRagab/AnimatedViewsForm)
+
+
 ViewsFrom is an android librarie that allows you to easily find and animate child views from one or multiple ViewGroups using their tag, type, visibility and much more.
 This librairie is Android 14+ compatible.
 
